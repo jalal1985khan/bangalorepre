@@ -13,7 +13,7 @@ function Peoples() {
 <div class="card mb-3">
   <div class="row g-0">
     <div class="col-md-2">
-      <img src="/images/blog_1.png" class="img-fluid rounded-start" alt="..."/>
+      <Image src="/images/blog_1.png" class="img-fluid rounded-start" alt="..." width={200} height={200}/>
     </div>
     <div class="col-md-10">
       <div class="card-body"><a href="https://www.microbiologyresearch.org/content/journal/acmi/10.1099/acmi.0.000318">
@@ -34,7 +34,7 @@ function Peoples() {
 </a></div>
                   </div>
       <div class="col-md-2">
-      <img src="/images/blog_2.png" class="img-fluid rounded-start" alt="..."/>
+                    <Image src="/images/blog_2.png" class="img-fluid rounded-start" alt="..." width={200} height={200} />
     </div>
   </div>
 </div>              
@@ -42,7 +42,7 @@ function Peoples() {
 <div class="card mb-3">
   <div class="row g-0">
     <div class="col-md-2">
-      <img src="/images/blog_3.jpg" class="img-fluid rounded-start" alt="..."/>
+      <Image src="/images/blog_3.jpg" class="img-fluid rounded-start" alt="..." width={200} height={200}/>
     </div>
     <div class="col-md-10">
       <div class="card-body"><a href="https://www.gavi.org/vaccineswork/sewage-sleuths-turning-bangalores-wastewater-epidemiological-treasure%20">
@@ -62,7 +62,7 @@ function Peoples() {
       </a></div>
       </div>
       <div class="col-md-2">
-      <img src="/images/blog_4.jpg" class="img-fluid rounded-start" alt="..."/>
+      <Image src="/images/blog_4.jpg" class="img-fluid rounded-start" alt="..." width={200} height={200}/>
     </div>
   </div>
 </div>              
@@ -70,7 +70,7 @@ function Peoples() {
 <div class="card mb-3">
   <div class="row g-0">
     <div class="col-md-2">
-      <img src="/images/blog_5.png" class="img-fluid rounded-start" alt="..."/>
+      <Image src="/images/blog_5.png" class="img-fluid rounded-start" alt="..." width={200} height={200}/>
     </div>
     <div class="col-md-10">
       <div class="card-body"><a href="https://bengaluru.citizenmatters.in/coronavirus-presence-in-sewage-data-72192">
@@ -90,7 +90,7 @@ function Peoples() {
       </a></div>
       </div>
       <div class="col-md-2">
-      <img src="/images/blog_6.jpeg" class="img-fluid rounded-start" alt="..."/>
+      <Image src="/images/blog_6.jpeg" class="img-fluid rounded-start" alt="..." width={200} height={200}/>
     </div>
   </div>
 </div>              
@@ -98,7 +98,7 @@ function Peoples() {
 <div class="card mb-3">
   <div class="row g-0">
     <div class="col-md-2">
-      <img src="/images/blog_7.jpeg" class="img-fluid rounded-start" alt="..."/>
+      <Image src="/images/blog_7.jpeg" class="img-fluid rounded-start" alt="..." width={200} height={200}/>
     </div>
     <div class="col-md-10">
       <div class="card-body"><a href="https://www.deccanherald.com/city/top-bengaluru-stories/bengaluru-to-have-wastewater-surveillance-points-for-possible-spike-in-covid-cases-1059326.html">
@@ -118,7 +118,7 @@ function Peoples() {
       </a></div>
 </div>
       <div class="col-md-2">
-      <img src="/images/blog_8.jpg" class="img-fluid rounded-start" alt="..."/>
+      <Image src="/images/blog_8.jpg" class="img-fluid rounded-start" alt="..." width={200} height={200}/>
     </div>
   </div>
 </div>              

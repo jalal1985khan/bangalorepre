@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
 import { Container } from 'react-bootstrap'
+import Image from 'next/image'
 
 function ImageField() {
   return (
@@ -10,13 +11,13 @@ function ImageField() {
         <div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="/images/carousel_1.jpg" class="d-block w-100" alt="..."/>
+      <Image width={300} height={300} src="/images/carousel_1.jpg" class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src="/images/carousel_2.jpg" class="d-block w-100" alt="..."/>
+      <Image width={300} height={300} src="/images/carousel_2.jpg" class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src="/images/carousel_3.jpg" class="d-block w-100" alt="..."/>
+      <Image width={300} height={300} src="/images/carousel_3.jpg" class="d-block w-100" alt="..."/>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
