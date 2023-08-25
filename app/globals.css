@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body{
+margin:0px;
+padding:0px;
+font-family: 'Lato', sans-serif;    
+}
+.blue{
+color:#2A7A99;    
+}
+.light-blue{
+color:#304E4E;    
+}
+.fs-60{
+font-size:100px;
+}
+.fs-40{
+font-size:45px;    
+}
+.bg{
+background:#3A6783;    
+padding: 90px;
+}
+.bg-white{
+    background: #EFF2F4;
+    width:80% !important;
+    padding:32px !important;
+    
+}
+.yt-width{
+width:100%;
+}
+.react-pdf__Page__canvas {
+  margin: 0 auto;
+  width: 80% !important;
+  height: 100% !important;
+}
+.react-pdf__Page__textContent span{
+  width: 100% !important;
+  height: auto !important;
+}
+.react-pdf__Page__textContent.textLayer {
+  visibility: hidden !important;
+  display: none;
+}
+.control-panel {
+    font-size: 16px;
+    color: black;
+    background-color: rgb(175, 175, 175);
+    border-radius: 5px;
+    width: fit-content;
+  }
+  
+  .clickable {
+    cursor: pointer;
+  }
+  
+  .disabled {
+    cursor: not-allowed;
+    color: lightgray;
+  }
+  .react-pdf__Page__annotations.annotationLayer {
+    display: none;
+}
+.img-100{
+width:100%;
+height:auto;    
+}
+.profile{
+border:0px !important    
+}
+.card-body a{
+color:#000;
+text-decoration: none;    
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 0 !important;
+    background-color: #fff!important;
+}
+.bgcolor{
+    background: #DFEFED;
+    padding:25px;
+    font-size:20px;
+    font-style: italic;
+    font-weight:400;
+}
+.footer{
+    background: #333333;
+    height:80px;
+    color:#fff;
+    display:flex;
+    
+}
+@media (max-width: 768px) { 
+.fs-60 {
+    font-size: 40px;
+}
+.fs-40{
+  font-size: 32px;  
+}
+.bg-white {
+  background: #EFF2F4;
+  width: 100% !important;
+  padding: 25px !important;
+}
+.light-blue {
+  color: #304E4E;
+  font-size:20px !important;
+}
+.yt-width{
+height:auto!important;  
+}
+.control-panel {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+.m-display{
+width:100% !important;  
+}
+
+}
