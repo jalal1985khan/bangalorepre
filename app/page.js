@@ -19,14 +19,7 @@ function page() {
       <Header />
       <Banner />
       <About />
-      <ImageField />
-      <Experience />
-      <Pdf />
-      <Event />
-      <Partners />
-      <Peoples />
-      <Publication />
-      <Contact />
+      
     
       <Footer/>
     </>
