@@ -26,7 +26,7 @@ function page() {
       <Partners />
       <Peoples />
       <Publication />
-      <Contact />
+      
     
       <Footer/>
     </>
