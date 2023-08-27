@@ -21,12 +21,12 @@ function page() {
       <About />
       <ImageField />
       <Experience />
-      
+      <Pdf />
       <Event />
       <Partners />
       <Peoples />
       <Publication />
-      
+      <Contact />
     
       <Footer/>
     </>

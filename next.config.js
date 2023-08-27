@@ -4,5 +4,8 @@ module.exports = {
    webpack: (config) => {
      config.externals = [...config.externals, "canvas", "jsdom"];
      return config;
-   },
+  },
+  experimental: {
+    outputFileTracingIgnores: ["**canvas**"],
+  },
   };
