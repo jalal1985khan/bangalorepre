@@ -101,6 +101,16 @@ text-align: center !important;
 }
 
 
+.scroll{
+  position: absolute;
+  right: 0;  
+  cursor: pointer;
+}
+.scroll svg{
+  fill:#fff;
+  cursor: pointer;
+}
+
 @media (max-width: 768px) { 
 .fs-60 {
     font-size: 40px;
