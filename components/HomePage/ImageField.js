@@ -6,7 +6,7 @@ import Image from 'next/image'
 function ImageField() {
   return (
     <>
-      <Container fluid className="g-0 pt-5 pb-5">
+      <Container fluid className="g-0 pt-5 pb-5" id="section2">
 <Container><h2 className="fs-40 blue fw-bold">Images from the field</h2></Container>
         <div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">

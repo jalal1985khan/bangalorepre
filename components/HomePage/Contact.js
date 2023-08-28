@@ -17,7 +17,7 @@ function Contact() {
 
   return (
 <>
-<Container>
+<Container id="section7">
 <Row className="d-flex flex-row">
 <Col>
 <TwitterTimelineEmbed

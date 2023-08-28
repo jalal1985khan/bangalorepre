@@ -94,6 +94,11 @@ text-decoration: none;
  width:100%;
  height:900px; 
 }
+.btnLink{
+text-decoration: none;
+color:#000;
+text-align: center !important;
+}
 
 
 @media (max-width: 768px) { 
