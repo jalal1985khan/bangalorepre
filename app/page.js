@@ -27,7 +27,7 @@ function page() {
       <Peoples />
       <Publication />
       <Contact />
-    
+    <Tableau/>
       <Footer/>
     </>
   )

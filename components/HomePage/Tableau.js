@@ -21,7 +21,7 @@ const TableauDashboard = ({ dashboardUrl }) => {
       width: '100%', // Set the width to 100% for full width
       height: '600px', // Set the height as desired
     };
-    const viz = new window.tableau.Viz(containerDiv, dashboardUrl, options);
+    //const viz = new window.tableau.Viz(containerDiv, dashboardUrl, options);
   };
 
   return (

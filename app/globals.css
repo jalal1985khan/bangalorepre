@@ -90,6 +90,12 @@ text-decoration: none;
     display:flex;
     
 }
+.tableau{
+ width:100%;
+ height:900px; 
+}
+
+
 @media (max-width: 768px) { 
 .fs-60 {
     font-size: 40px;

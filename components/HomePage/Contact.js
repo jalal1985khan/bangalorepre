@@ -10,11 +10,13 @@ import { TwitterTimelineEmbed } from 'react-twitter-embed';
 
 
 function Contact() {
-  const tableauDashboardUrl = 'https://public.tableau.com/views/PrecisionPandemic-Dashboard/Dashboard-External';    
-  return (
-    <>
-      
+  //const tableauDashboardUrl = 'https://public.tableau.com/views/PrecisionPandemic-Dashboard/Dashboard-External';
 
+  
+
+
+  return (
+<>
 <Container>
 <Row className="d-flex flex-row">
 <Col>
@@ -31,15 +33,15 @@ function Contact() {
 </Row>
 <Row>
 <Col lg={12}>
-            {/* <TableauDashboard dashboardUrl={tableauDashboardUrl} /> */}
-
-    
-
-
-
-    <div id="vizContainer" ></div>
-
-
+<iframe
+      src="https://public.tableau.com/views/PrecisionPandemic-Dashboard/Dashboard-External"
+      width="1100"
+      height="900"
+      frameBorder="0"
+              allowFullScreen
+              className="tableau"
+              
+    ></iframe>
 </Col>
 </Row>
 </Container>
