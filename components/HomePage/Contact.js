@@ -42,7 +42,10 @@ function Contact() {
 
 
   return (
-<>
+    <>
+      <Container className="mb-4 pb-4"><h2 className="fs-40 blue fw-bold">Contact Us</h2>
+      <p className="fs-4">For more information about the platform, please contact Anna Poorni at poorni@catalysts.org and or reach out to us on Twitter</p>
+      </Container>
 <Container id="section7">
 <Row className="d-flex flex-row">
 <Col>

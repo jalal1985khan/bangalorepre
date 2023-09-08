@@ -6,7 +6,7 @@ function Peoples() {
   return (
 <>
 <Container fluid className="g-0 pt-5 pb-5" id="section6">
-<Container><h2 className="fs-40 blue fw-bold">Partners</h2></Container>
+<Container><h2 className="fs-40 blue fw-bold">People behind this project</h2></Container>
 <Container>
 <Row>
 <Col lg={3}>

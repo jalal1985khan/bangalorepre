@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Loader from '../HomePage/controls/Loader';
 import { Document, Page, pdfjs } from 'react-pdf';
 import ControlPanel from '../HomePage/controls/ControlPanel';
+import { Container } from 'react-bootstrap';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const PDFReader = () => {
@@ -18,6 +19,7 @@ const PDFReader = () => {
 
   return (
     <div>
+      <Container><h2 className="fs-40 blue fw-bold">Take enviromental surveillance to your city</h2></Container>
       <Loader isLoading={isLoading} />
       <section
         id="pdf-section"
