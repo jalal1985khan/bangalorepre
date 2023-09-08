@@ -57,7 +57,7 @@ function Contact() {
 
 </Col>
 <Col>
-<a href="https://twitter.com/Precisi0nHealth" className="btn btn-primary">Follow us on Twitter</a>
+<a href="https://twitter.com/Precisi0nHealth" className="btn btn-twitter">Follow us on Twitter</a>
 </Col>
 </Row>
 <Row>
